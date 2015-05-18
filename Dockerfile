@@ -12,4 +12,4 @@ RUN make
 
 EXPOSE 3000
 
-CMD ['./bin/slackin', '--port ${PORT}', '${SLACK_SUBDOMAIN}', '${SLACK_API_TOKEN}']
+CMD ["./bin/slackin", "--port", "${PORT}", "${SLACK_SUBDOMAIN}", "${SLACK_API_TOKEN}"]
